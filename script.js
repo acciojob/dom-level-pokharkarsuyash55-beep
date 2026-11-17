@@ -2,7 +2,7 @@
 
 let element=document.querySelector("#level");
 let count=0;
-if(element!==null){
+while(element!==null){
 	count++;
 	element=element.parentElement;
 }
